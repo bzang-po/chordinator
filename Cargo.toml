@@ -1,0 +1,17 @@
+[package]
+name = "chordinator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+backoff = { version = "0.4.0", features = ["futures", "tokio"] }
+dotenvy = "0.15.7"
+futures-util = "0.3.32"
+reqwest = "0.13.2"
+serde = "1.0.228"
+serde_json = "1.0.149"
+sqlx = "0.8.6"
+tokio = { version = "1.49.0", features = ["full"] }
+tokio-tungstenite = "0.28.0"
+url = "2.5.8"
